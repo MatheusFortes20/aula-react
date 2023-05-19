@@ -1,24 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Soma from "./components/Soma";
+import EntradaDeDados from "./components/Labels";
+import EntradaDeDados2 from "./components/Label2";
+import Botao from "./components/Botao";
 
 function App() {
+
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Componente da soma</h1>
+      <p>Estudante de programação e jogador de Counter strike nas horas vagas!!</p>
+      <Soma></Soma>
+      <EntradaDeDados></EntradaDeDados>
+      
+     <>
+     <br></br>
+     <EntradaDeDados2></EntradaDeDados2>
+     </> 
+
+     <>
+     <br></br>
+     <Botao></Botao>
+     <br></br>
+     <span>Resposta: </span>
+
+     </>
+
+    
     </div>
   );
 }
