@@ -1,5 +1,6 @@
 
 import Soma from "./components/Soma";
+import Operacao from "./components/Operacao";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <p>Estudante de programação e jogador de Counter strike nas horas vagas!!</p>
       
       <Soma/>
+      <Operacao tipo="subtração"/>
 
     
     </div>

@@ -31,7 +31,7 @@ function Soma(){
     return(
         <div>
             <div>
-                <h1>Sistena de soma de numeros!</h1>
+                <h1>Sistema de Soma de numeros!</h1>
             </div>
         <div>
             <label>Digite o primeiro numero: 
@@ -46,14 +46,16 @@ function Soma(){
         </div>
         <br></br>
         <div>
-            <button onClick={ClicouNoBotao}>Calcular</button>
+            <button onClick={ClicouNoBotao}>SOMAR</button>
             <br></br>
         </div>
         <br></br>
         <div>
             <span><strong>Resultado :</strong>{soma}</span>
         </div>
+        <hr></hr>
         </div>
+        
     )
 }
 
